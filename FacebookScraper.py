@@ -9,7 +9,7 @@ from selenium.webdriver.chrome.options import Options
 # Path to chromedriver.exe
 chromePath = ''' Insert chromedriver path '''
 
-# Dictionary of class names
+# Dictionary of class names [Might have to update depending on your code]
 classes = {
 	'page section' : 'rq0escxv l9j0dhe7 du4w35lb j83agx80 cbu4d94t pfnyh3mw d2edcug0 ofv0k9yr cwj9ozl2',
 	'section name' : 'a8c37x1j ni8dbmo4 stjgntxs l9j0dhe7',

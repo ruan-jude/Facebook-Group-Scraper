@@ -22,6 +22,7 @@ def dataToGoogleSheet(data):
         'https://www.googleapis.com/auth/drive'
     ]
 
+    # Create JSON on Google Cloud Services website
     creds = ServiceAccountCredentials.from_json_keyfile_name(''' Insert API credentials json ''', scope)
     client = gspread.authorize(creds)
     sheet = client.open(''' Insert sheets title ''').worksheet(''' Insert page title ''')
